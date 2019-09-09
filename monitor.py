@@ -6,11 +6,9 @@ import paramiko
 import sys
 
 username = ''
-hosts = {'192.168.0.107:22':None, '192.168.0.109:22':None}
-
 assert username != None
-for host in hosts
-for host in hosts:
+
+hosts = {'192.168.0.107:22':None, '192.168.0.109:22':None}
 
 screen_width = 140
 last_height = 0
